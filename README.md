@@ -1,17 +1,29 @@
-# JDownloader Fluent Theme
-A Fluent dark theme for JDownloader 2 with Mica Effect Support
+# JDownloader Fluent Theme  
+A sleek, Fluent-style dark theme for **JDownloader 2** with **Mica Effect** support.
 
 ![Screenshot](https://github.com/ikoshura/JDownloader-Fluent/blob/main/Jdownloadermica.png?raw=true)
 
-## Installing
+## Features
+- Fluent design with dark aesthetics for JDownloader 2.
+- Mica Effect support for a dynamic and modern look on Windows.
 
-1. Go to `Settings -> Settings` and select the `Advanced Settings` category from the list on the left.
-2. Enter `LookAndFeelTheme` into the search field.
-3. Only the setting `GraphicalUserInterfaceSettings: Look and Feel Theme` should remain. Set its value to `FLATLAF_MAC_DARK`.
-4. Set `LAFSettings: Color For Table Package Row Background` value to `00000000` (RGB `000000` Alpha `0`).
-5. Set `LAFSettings: Color For Table Alternate Row Background` value to `00000000` (RGB `000000` Alpha `0`).
-6. Set `LAFSettings: Color For Panel Background` value to `fe000000` (RGB `000000` Alpha `254`).
-7. Set `LAFSettings: Color For Table Mouse Over Rows Background` value to `8237a5ff` (RGB `37A5FF` Alpha `100`). 
-8. Set `LAFSettings: Color For Table Selected Rows Background` value to `8237a5ff` (RGB `37A5FF` Alpha `130`).
-9. Enable `LAFSettings: Window Decoration`.
-10. restart JDownloader 2.
+## Installation
+
+Follow these steps to install the Fluent theme and enable the Mica Effect in JDownloader 2:
+
+### 1. Apply Fluent Theme in JDownloader:
+1. Open **Settings** in JDownloader.
+2. Select the **Advanced Settings** category from the left sidebar.
+3. In the search field, type `LookAndFeelTheme`.
+4. Set **`GraphicalUserInterfaceSettings: Look and Feel Theme`** to `FLATLAF_MAC_DARK`.
+5. Set **`LAFSettings: Color For Table Package Row Background`** to `00000000` (RGB `000000`, Alpha `0`).
+6. Set **`LAFSettings: Color For Table Alternate Row Background`** to `00000000` (RGB `000000`, Alpha `0`).
+7. Set **`LAFSettings: Color For Panel Background`** to `fe000000` (RGB `000000`, Alpha `254`).
+8. Set **`LAFSettings: Color For Table Mouse Over Rows Background`** to `8237a5ff` (RGB `37A5FF`, Alpha `100`).
+9. Set **`LAFSettings: Color For Table Selected Rows Background`** to `8237a5ff` (RGB `37A5FF`, Alpha `130`).
+10. Enable **`LAFSettings: Window Decoration`**.
+
+### 2. Enable Mica Effect:
+1. Install [MicaForEveryone](https://github.com/MicaForEveryone/MicaForEveryone).
+2. Add **JDownloader 2** to the **MicaForEveryone** process rule to enable Mica support.
+3. Restart JDownloader to apply the changes.
