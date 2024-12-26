@@ -22,8 +22,12 @@ Follow these steps to install the Fluent theme and enable the Mica Effect in JDo
 8. Set **`LAFSettings: Color For Panel Background`** to `fe000000` (RGB `000000`, Alpha `254`).
 9. Set **`LAFSettings: Color For Table Mouse Over Rows Background`** to `8237a5ff` (RGB `37A5FF`, Alpha `100`).
 10. Set **`LAFSettings: Color For Table Selected Rows Background`** to `8237a5ff` (RGB `37A5FF`, Alpha `130`).
-11. In the search field, type `Window Decoration`.
-12. Enable **`LAFSettings: Window Decoration`**.
+11. In the search field, type `Color Foreground`.
+12. Change all the blacks and whites to white.
+13. In the search field, type `Color Text`.
+14. Change all the colors to white
+15. In the search field, type `Window Decoration`.
+16. Enable **`LAFSettings: Window Decoration`**.
 
 ### 2. Enable Mica Effect:
 1. Install [MicaForEveryone](https://github.com/MicaForEveryone/MicaForEveryone).
