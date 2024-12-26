@@ -32,4 +32,5 @@ Follow these steps to install the Fluent theme and enable the Mica Effect in JDo
 ### 2. Enable Mica Effect:
 1. Install [MicaForEveryone](https://github.com/MicaForEveryone/MicaForEveryone).
 2. Add **JDownloader2** to the **MicaForEveryone** process rule to enable Mica support.
-3. Restart JDownloader to apply the changes.
+3. Enable `Extend Frame Into Client Area`
+4. Restart JDownloader to apply the changes.
