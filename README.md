@@ -11,7 +11,7 @@ A sleek, Fluent-style dark theme for **JDownloader 2** with **Mica Effect** supp
 
 Follow these steps to install the Fluent theme and enable the Mica Effect in JDownloader 2:
 
-### 1. Apply Fluent Theme in JDownloader:
+### 1. Apply Theme in JDownloader:
 1. Open **Settings** in JDownloader.
 2. Select the **Advanced Settings** category from the left sidebar.
 3. In the search field, type `LookAndFeelTheme`.
@@ -27,5 +27,5 @@ Follow these steps to install the Fluent theme and enable the Mica Effect in JDo
 
 ### 2. Enable Mica Effect:
 1. Install [MicaForEveryone](https://github.com/MicaForEveryone/MicaForEveryone).
-2. Add **JDownloader 2** to the **MicaForEveryone** process rule to enable Mica support.
+2. Add **JDownloader2** to the **MicaForEveryone** process rule to enable Mica support.
 3. Restart JDownloader to apply the changes.
