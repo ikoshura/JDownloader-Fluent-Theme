@@ -1,4 +1,4 @@
-# JDownloader-Fluent
+# JDownloader Fluent Theme
 A Fluent dark theme for JDownloader 2 with Mica Effect Support
 
 ![Screenshot](https://github.com/ikoshura/JDownloader-Fluent/blob/main/Jdownloadermica.png?raw=true)
