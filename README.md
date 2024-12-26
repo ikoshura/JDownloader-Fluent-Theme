@@ -15,11 +15,13 @@ A sleek, Fluent-style dark theme for **JDownloader 2** with **Mica Effect** supp
 
 **File Paths:**
 ```
-%LOCALAPPDATA%\JDownloader 2\cfg\laf\FlatMacDarkLaf.json
+%LOCALAPPDATA%\JDownloader 2.0\cfg\laf\FlatMacDarkLaf.json
 ```
 ```
-%LOCALAPPDATA%\JDownloader 2\cfg\org.jdownloader.settings.GraphicalUserInterfaceSettings.json
+%LOCALAPPDATA%\JDownloader 2.0\cfg\org.jdownloader.settings.GraphicalUserInterfaceSettings.json
 ```
+
+**Note:** The folder name might vary (e.g., it could be `JDownloader 2` instead of `JDownloader 2.0`). Please check and adjust accordingly.
 
 ### Manual Installation
 
