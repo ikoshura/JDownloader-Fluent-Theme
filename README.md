@@ -1,65 +1,97 @@
 # JDownloader Fluent Theme  
-A sleek, Fluent-style dark theme for **JDownloader 2** with **Mica Effect** support.
+A sleek, Fluent-style dark theme for **JDownloader 2**, featuring **Mica Effect** support.
 
 ![Screenshot](https://github.com/ikoshura/JDownloader-Fluent-Theme/blob/main/MicaUpdate.png)
 
-## Features
-- Fluent design with dark aesthetics for JDownloader 2.
-- Mica Effect support for a dynamic, modern look on Windows.
+---
 
-## Installation
+## Features
+- Modern Fluent design with dark aesthetics.
+- Mica Effect support for a dynamic, polished look on Windows.
+
+---
+
+## Installation Guide
 
 ### Quick Installation
+1. **Download** the files from this repository.
+2. **Replace** the existing configuration files with the downloaded ones:
+   
+   **JSON Configuration File Paths:**
+   ```
+   %LOCALAPPDATA%\JDownloader 2\cfg\laf\FlatMacDarkLaf.json
+   ```
+   ```
+   %LOCALAPPDATA%\JDownloader 2\cfg\org.jdownloader.settings.GraphicalUserInterfaceSettings.json
+   ```
 
-1. Download the files from the repository.
-2. Copy and replace them to the following locations:
+   > **Note:** Your folder name might differ (e.g., `JDownloader 2.0`). Adjust as needed.
 
-> [!WARNING]
-> The folder name might vary (e.g., it could be `JDownloader 2.0` instead of `JDownloader 2`). Please check and adjust accordingly.
-
-**JSON configuration files location:**
-```
-%LOCALAPPDATA%\JDownloader 2\cfg\laf\FlatMacDarkLaf.json
-```
-```
-%LOCALAPPDATA%\JDownloader 2\cfg\org.jdownloader.settings.GraphicalUserInterfaceSettings.json
-```
+3. Navigate to `%LOCALAPPDATA%\JDownloader 2\libs\laf`.
+4. Create a backup of `flatlaf.jar` (e.g., rename it to `flatlaf.jar.bak`).
+5. Open `flatlaf.jar` with a tool like **7-Zip**.
+6. Go to `\com\formdev\flatlaf\themes\` inside the archive.
+7. Replace `FlatMacDarkLaf.properties` with the one from this repository.
+8. Save changes when prompted.
 
 ### Manual Installation
 
 #### 1. Apply Theme in JDownloader:
 1. Open **Settings** in JDownloader.
 2. In the left sidebar, select **Advanced Settings**.
-3. In the search field, type `LookAndFeelTheme`.
+3. Search for `LookAndFeelTheme`.
 4. Set **`GraphicalUserInterfaceSettings: Look and Feel Theme`** to `FLATLAF_MAC_DARK`.
-5. In the search field, type `Color Background`.
-6. Set the following colors
+5. Search for `Color Background` and apply these values:
 
-| **Setting**                                      | **HEX**      | **RGB**      | **Alpha** |
-|--------------------------------------------------|--------------|--------------|-----------|
-| Color For Table Package Row Background           | `00000000`   | `000000`     | `0`       |
-| Color For Table Alternate Row Background         | `00000000`   | `000000`     | `0`       |
-| Color For Panel Background                       | `fe000000`   | `000000`     | `254`     |
-| Color For Table Mouse Over Rows Background       | `8237a5ff`   | `37A5FF`     | `100`     |
-| Color For Table Selected Rows Background         | `8237a5ff`   | `37A5FF`     | `130`     |
+   | **Setting**                                      | **HEX**      | **RGB**      | **Alpha** |
+   |--------------------------------------------------|--------------|--------------|-----------|
+   | Color For Table Package Row Background           | `00000000`   | `000000`     | `0`       |
+   | Color For Table Alternate Row Background         | `00000000`   | `000000`     | `0`       |
+   | Color For Panel Background                       | `fe000000`   | `000000`     | `254`     |
+   | Color For Table Mouse Over Rows Background       | `8237a5ff`   | `37A5FF`     | `100`     |
+   | Color For Table Selected Rows Background         | `8237a5ff`   | `37A5FF`     | `130`     |
 
-7. In the search field, type `Color Foreground`, then change all black and white values to **white**.
-8. In the search field, type `Color Text`, then change all colors to **white**.
-9. In the search field, type `Window Decoration`.
-10. Enable **`LAFSettings: Window Decoration`**.
+6. Search for `Color For Table Row Gap` and set it to:
 
-> [!TIP]
-> Colors advanced settings preview
->
-> ![colors](https://github.com/user-attachments/assets/fa011986-ed4f-4f3d-9d23-0203067890a0)
+   | **Setting**                      | **HEX**      | **RGB**      | **Alpha** |
+   |----------------------------------|--------------|--------------|-----------|
+   | Color For Table Row Gap          | `00000000`   | `000000`     | `0`       |
 
+7. Search for `Color Foreground` and change all black/white values to **white**.
+8. Search for `Color Text` and set all colors to **white**.
+9. Search for `Window Decoration` and enable **`LAFSettings: Window Decoration`**.
+10. Navigate to `%LOCALAPPDATA%\JDownloader 2\libs\laf`.
+11. Create a backup of `flatlaf.jar` (e.g., rename it to `flatlaf.jar.bak`).
+12. Open `flatlaf.jar` with a tool like **7-Zip**:
+    - Go to `\com\formdev\flatlaf\themes\`.
+    - Open `FlatMacDarkLaf.properties` in a text editor.
+    - follow this configuration:
+      ```
+      @nsTextBackgroundColor = #202020
+      @nsControlBackgroundColor = #202020
+      @nsControlAccentColor = #fffffff1   # You can replace this with your preferred accent color
+      @buttonBackground = #00000001
+      @accentFocusColor = #00000000
+      Component.borderColor = #00000000
+      Component.disabledBorderColor = #00000000
+      ```
+    - Save and close the editor.
+    - Accept prompts to update the archive.
+
+   > **Tip:** You can preview the advanced color settings below:
+   > ![Colors Preview](https://github.com/user-attachments/assets/fa011986-ed4f-4f3d-9d23-0203067890a0)
 
 #### 2. Enable Mica Effect:
 1. Install [MicaForEveryone](https://github.com/MicaForEveryone/MicaForEveryone).
-2. Add **JDownloader 2** to the **MicaForEveryone** process rule to enable Mica support.
+2. Add **JDownloader 2** to the **MicaForEveryone** process rules.
 3. Enable **Extend Frame Into Client Area**.
-4. Restart JDownloader to apply the changes.
+4. Restart JDownloader to apply changes.
 
-### <sub>Upcoming Features</sub>
-<sub>1. Add Mica effect support to the Header/Titlebar.</sub><br>
-<sub>2. Update icons and symbols to match a more modern, Windows 11-style aesthetic.</sub>
+---
+
+## Upcoming Features
+1. **Mica effect support** for the Header/Titlebar.
+2. Updated icons and symbols for a modern Windows 11-style look.
+
+---
+
