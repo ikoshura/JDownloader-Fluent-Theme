@@ -48,8 +48,8 @@ A sleek, Fluent-style dark theme for **JDownloader 2**, featuring **Mica Effect*
    | Color For Table Package Row Background           | `00000000`   | `000000`     | `0`       |
    | Color For Table Alternate Row Background         | `00000000`   | `000000`     | `0`       |
    | Color For Panel Background                       | `fe000000`   | `000000`     | `254`     |
-   | Color For Table Mouse Over Rows Background       | `8237a5ff`   | `37A5FF`     | `100`     |
-   | Color For Table Selected Rows Background         | `8237a5ff`   | `37A5FF`     | `130`     |
+   | Color For Table Mouse Over Rows Background       | `32FFFFFF`   | `FFFFFF`     | `50`     |
+   | Color For Table Selected Rows Background         | `32FFFFFF`   | `FFFFFF`     | `50`     |
 
 6. Search for `Color For Table Row Gap` and set it to:
 
