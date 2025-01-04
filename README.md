@@ -79,7 +79,11 @@ A sleek, Fluent-style dark theme for **JDownloader 2**, featuring **Mica Effect*
     - Accept prompts to update the archive.
 
    > **Tip:** You can preview the advanced color settings below:
+   <details closed>
+      
    > ![Colors Preview](https://github.com/user-attachments/assets/fa011986-ed4f-4f3d-9d23-0203067890a0)
+  
+   </details>
 
 #### 2. Enable Mica Effect:
 1. Install [MicaForEveryone](https://github.com/MicaForEveryone/MicaForEveryone).
